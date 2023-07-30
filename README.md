@@ -1,33 +1,33 @@
 # TurtleBot3-SLAM-Simulation
 SLAM (Gmapping) simulation using TurtleBot3 robot
 
-TurtleBot3 is a 2 wheel robot that operates similar to how a Roomba vacuum cleaner does. The simulation will be ran in Gazebo for the virtual enviroment and RVIZ paired with SLAM (Simultaneous Localization and Mapping) will display the mapping process the bot goes through
+TurtleBot3 is a 2 wheel robot that operates similarly to how a Roomba vacuum cleaner does. The simulation will be run in Gazebo for the virtual environment and RVIZ paired with SLAM (Simultaneous Localization and Mapping) will display the mapping process the bot goes through
 
-* Ubuntu 20.04.4
+* Ubuntu 18.04
 
-* ROS NOETIC
+* ROS MelodiC
 
 ## Installing TurtleBot3
 Open the terminal (CMD commands)
 ```
-1 - sudo apt-get install ros-noetic-joy ros-noetic-teleop-twist-joy \
-  ros-noetic-teleop-twist-keyboard ros-noetic-laser-proc \
-  ros-noetic-rgbd-launch ros-noetic-rosserial-arduino \
-  ros-noetic-rosserial-python ros-noetic-rosserial-client \
-  ros-noetic-rosserial-msgs ros-noetic-amcl ros-noetic-map-server \
-  ros-noetic-move-base ros-noetic-urdf ros-noetic-xacro \
-  ros-noetic-compressed-image-transport ros-noetic-rqt* ros-noetic-rviz \
-  ros-noetic-gmapping ros-noetic-navigation ros-noetic-interactive-markers
+1 - sudo apt-get install ros-melodic-joy ros-melodic-teleop-twist-joy \
+  ros-melodic-teleop-twist-keyboard ros-melodic-laser-proc \
+  ros-melodic-rgbd-launch ros-melodic-rosserial-arduino \
+  ros-melodic-rosserial-python ros-melodic-rosserial-client \
+  ros-melodic-rosserial-msgs ros-melodic-amcl ros-melodic-map-server \
+  ros-melodic-move-base ros-melodic-urdf ros-melodic-xacro \
+  ros-melodic-compressed-image-transport ros-melodic-rqt* ros-melodic-rviz \
+  ros-melodic-gmapping ros-melodic-navigation ros-melodic-interactive-markers
 
-2 - sudo apt install ros-noetic-dynamixel-sdk
+2 - sudo apt install ros-melodic-dynamixel-sdk
 
-3 - sudo apt install ros-noetic-turtlebot3-msgs
+3 - sudo apt install ros-melodic-turtlebot3-msgs
 
-4 - sudo apt install ros-noetic-turtlebot3
+4 - sudo apt install ros-melodic-turtlebot3
 
 5 - cd ~/catkin_*workspace name*/src/
 
-6 - git clone -b noetic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+6 - git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
 
 7 - cd ~/catkin_*workspace name*
 
@@ -35,7 +35,7 @@ Open the terminal (CMD commands)
 ```
 
 ## Simulation
-As stated above we'll be using gazebo to run a virtual enviroment. You can create your own enviroment, but for simplicity sake we'll use a pre-existing one
+As stated above we'll be using a gazebo to run a virtual environment. You can create your own environment, but for simplicity sake, we'll use a pre-existing one
 
 1. Open a new terminal and input the following commands
 
